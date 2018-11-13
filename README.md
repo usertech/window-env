@@ -29,10 +29,7 @@ module.exports = {
 		],
 		[
 			'@usertech/window-env/neutrino-preset',
-			{
-				FOO_VAR: '',
-				FOO_VAR2: '',
-			}
+			['FOO_VAR', 'FOO_VAR2']
 		],
 	]
 };
