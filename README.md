@@ -38,7 +38,18 @@ module.exports = {
 };
 ```
 
-2. Use `window-env-envsubst` binary to replace environment variables in `index.html` in production.
+2. Initialize environment variables in your entry point
+
+```
+import { init as initEnv } from '@usertech/window-env';
+
+initEnv({
+	FOO_VAR: process.env.FOO_VAR,
+	FOO_VAR2: process.env.FOO_VAR2,
+});
+```
+
+3. Use `window-env-envsubst` binary to replace environment variables in `index.html` in production.
 
 ```
 $ yarn window-env-envsubst build/index.html
