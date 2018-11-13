@@ -1,0 +1,24 @@
+{
+ "name": "@usertech/window-env",
+ "version": "0.0.1",
+ "main": "build/index.js",
+ "license": "MIT",
+ "scripts": {
+  "build": "webpack --mode production",
+  "watch": "webpack --watch --mode development"
+ },
+ "devDependencies": {
+  "@neutrinojs/library": "^9.0.0-beta.1",
+  "neutrino": "^9.0.0-beta.1",
+  "webpack": "^4",
+  "webpack-cli": "^3"
+ },
+ "bin": {
+  "window-env-envsubst": "./envsubst.js"
+ },
+ "peerDependencies": {},
+ "dependencies": {
+  "dotenv": "^6.1.0",
+  "html-webpack-template": "^6.2.0"
+ }
+}

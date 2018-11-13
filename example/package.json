@@ -1,0 +1,23 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development",
+    "window-env-envsubst": "window-env-envsubst"
+  },
+  "devDependencies": {
+    "@neutrinojs/web": "^9.0.0-beta.1",
+    "@usertech/window-env": "../",
+    "html-webpack-template": "^6.2.0",
+    "neutrino": "^9.0.0-beta.1",
+    "webpack": "^4",
+    "webpack-cli": "^3",
+    "webpack-dev-server": "^3"
+  },
+  "dependencies": {
+    "html-webpack-plugin": "^3"
+  }
+}
