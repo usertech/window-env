@@ -602,6 +602,13 @@
     dotenv "^6.1.0"
     html-webpack-template "^6.2.0"
 
+"@usertech/window-env@usertech/window-env#0.0.2":
+  version "0.0.1"
+  resolved "https://codeload.github.com/usertech/window-env/tar.gz/27a4bb18b11b0c6f25e78bbb4f5ba43e822cf741"
+  dependencies:
+    dotenv "^6.1.0"
+    html-webpack-template "^6.2.0"
+
 "@webassemblyjs/ast@1.7.11":
   version "1.7.11"
   resolved "https://registry.yarnpkg.com/@webassemblyjs/ast/-/ast-1.7.11.tgz#b988582cafbb2b095e8b556526f30c90d057cace"
