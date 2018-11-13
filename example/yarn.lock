@@ -595,8 +595,9 @@
     terser-webpack-plugin "^1.1.0"
     webpack-manifest-plugin "^2.0.4"
 
-"@usertech/window-env@../":
+"@usertech/window-env@usertech/window-env#0.0.1":
   version "0.0.1"
+  resolved "https://codeload.github.com/usertech/window-env/tar.gz/bc2bca3697cb51fb68965c20555932ad9a8370fb"
   dependencies:
     dotenv "^6.1.0"
     html-webpack-template "^6.2.0"

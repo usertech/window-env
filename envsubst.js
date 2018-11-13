@@ -2,7 +2,8 @@
 
 const fs = require('fs');
 const path = require('path');
-const { name } = require('package');
+
+const name = 'window-env-envsubst';
 
 function replaceEnvVars(stringContent) {
 	const regex = /\$(?:(\w+)|{(\w+)})/g;
