@@ -49,7 +49,9 @@ initEnv({
 3. Use `window-env-envsubst` binary to replace environment variables in `index.html` in production.
 
 ```
-$ yarn window-env-envsubst build/index.html
+$ FOO_VAR=aaa FOO_VAR2=bbb node ./node_modules/.bin/window-env-envsubst build/index.html
 ```
+
+Or add it as package script, see example/package.json
 
 Typically this can be done at the start of your docker container. See `example/dev.sh` and corresponding Dockerfile etc.
