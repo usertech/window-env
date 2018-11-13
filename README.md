@@ -5,7 +5,7 @@
 ## Installation
 
 ```
-$ yarn add --dev usertech/window-env#0.0.1
+$ yarn add --dev usertech/window-env#0.0.2
 ```
 
 ## Usage
