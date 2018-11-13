@@ -54,3 +54,5 @@ initEnv({
 ```
 $ yarn window-env-envsubst build/index.html
 ```
+
+Typically this can be done at the start of your docker container.
